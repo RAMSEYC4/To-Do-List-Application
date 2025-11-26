@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.generated-js {
+  border: 1px solid #000;
+  width: 230px;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.jsDeletebutton {
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.jsDeletebutton:hover {
+  background-color: grey;
+  color: white;
+}
+
+.task-container {
+  border: 1px solid #000;
+  width: 400px;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
