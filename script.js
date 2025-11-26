@@ -35,13 +35,14 @@ jsAddButton.addEventListener('click', addTaskToArray)
 //display the html on the page
 const displayHtml = () => {
   let html = ""
-  task.forEach((vales) => {
+  task.forEach((vales, index) => {
     html = `<div class="task-container">
       <p class="generated-js">${vales}</p>
-      <button class="jsDeletebutton">Delete task</button>
+      <button class="jsDeletebutton" onclick="deleteOption(task)">Delete task</button>
     </div>
     `;
   })
   jsDisplay.innerHTML += html;
+  // console.log(jsDisplay.innerHTML)
 }
 
