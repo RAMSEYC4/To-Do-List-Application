@@ -37,7 +37,7 @@ const displayHtml = () => {
   let html = ""
   task.forEach((vales, index) => {
     html += `<div class="task-container" id="item-${index}">
-      <p class="generated-js">${vales}</p>
+      <p class="generated-js-p">${vales}</p>
       <button class="jsDeletebutton"
         onclick="deleteTasks(${index})">
         Delete task

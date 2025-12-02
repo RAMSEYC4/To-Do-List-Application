@@ -8,28 +8,49 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.generated-js {
+h1 {
+  text-align: center;
+}
+
+main {
+  margin: 20px auto 0 auto;
+  width: 50%;
+  border: 2px solid #000;
+  height: 90vh;
+}
+
+.container {
+  border: 2px solid gold;
+  height: 50px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.task-input {
+  width: 60%;
+}
+
+.jsAddButton {
+  width: 35%;
+}
+
+/* js content generated container  */
+.task-container {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  column-gap: 20px;
+}
+
+.generated-js-p {
   border: 1px solid #000;
-  width: 230px;
-  margin: 5px;
-  padding: 5px 10px;
+  width: 100%;
+  padding: 5px;
 }
 
 .jsDeletebutton {
   border: 1px solid #000;
-  margin: 5px;
-  padding: 5px 10px;
-}
-
-.jsDeletebutton:hover {
-  background-color: grey;
-  color: white;
-}
-
-.task-container {
-  border: 1px solid #000;
-  width: 400px;
-  margin: 10px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin-right: 6px;
+  padding: 5px;
 }
