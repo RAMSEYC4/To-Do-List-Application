@@ -70,11 +70,18 @@ function deleteTasks(index) {
   const elementToRemove = document.querySelector(`#item-${index}`);
   if (elementToRemove) {
     elementToRemove.remove();
-    console.log(`Task ${index} was removed`);
+    // console.log(`Task ${index} was removed`);
   }
   displayHtml();
 }
 
 
-
+/* enter function  */
+jsInputValues.addEventListener('keydown', inputEnter)
+function inputEnter(event) {
+  // if (event.key === "Enter") {
+  //   addTaskToArray()
+  // }
+  event.key === "Enter" && addTaskToArray()
+}
 

@@ -20,7 +20,7 @@ main {
 }
 
 .container {
-  border: 2px solid gold;
+  /* border: 2px solid gold; */
   height: 50px;
   display: flex;
   column-gap: 10px;

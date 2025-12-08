@@ -1,0 +1,112 @@
+/* 1200px screen or smaller */
+@media(min-width:1001px) and (max-width:1200px) {
+  main {
+    /* background-color: red; */
+    width: 75%;
+  }
+}
+
+
+/* 601px screen or smaller */
+@media(min-width:901px) and (max-width:1000px) {
+  main {
+    /* background-color: pink; */
+    margin: 20px auto 0 auto;
+    width: 80%;
+  }
+}
+
+
+/* 601px screen or smaller */
+@media(min-width:701px) and (max-width:900px) {
+  main {
+    /* background-color: purple; */
+    margin: 20px auto 0 auto;
+    width: 85%;
+  }
+}
+
+
+/* 601px screen or smaller */
+@media(min-width:601px) and (max-width:700px) {
+  main {
+    /* background-color: green; */
+    margin: 20px auto 0 auto;
+    width: 90%;
+  }
+}
+
+/* from 320px to 600px */
+@media(min-width:401px) and (max-width:600px) {
+
+  h1 {
+    color: #007bff;
+    padding: 10px 0;
+  }
+
+  main {
+    /* background-color: yellow; */
+    margin: 20px auto 0 auto;
+    width: 95%;
+  }
+
+  .task-input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 4px !important;
+    background-color: #ffffff;
+    height: 60px;
+    align-items: center;
+  }
+}
+
+
+@media(min-width:320px) and (max-width:400px) {
+  h1 {
+    color: #007bff;
+    padding: 10px 0;
+  }
+
+  main {
+    /* background-color: yellow; */
+    margin: 20px auto 0 auto;
+    width: 96%;
+  }
+
+  .task-input {
+    padding: 8px;
+  }
+
+  .jsDeletebutton {
+    padding: 5px;
+  }
+
+  .task-container {
+    padding: 5px;
+  }
+}
+
+@media(min-width:200px) and (max-width:319px) {
+  h1 {
+    color: #007bff;
+    padding: 10px 0;
+  }
+
+  main {
+    /* background-color: yellow; */
+    margin: 20px 0 0 0;
+    width: 98%;
+  }
+
+  .task-input {
+    padding: 8px;
+  }
+
+  .jsDeletebutton {
+    padding: 5px;
+  }
+
+  .task-container {
+    padding: 5px;
+  }
+}
