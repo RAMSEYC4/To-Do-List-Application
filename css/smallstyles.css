@@ -77,8 +77,8 @@
     padding: 8px;
   }
 
-  .jsDeletebutton {
-    padding: 5px;
+  .jsDeletebutton,.jsUpdatebutton {
+    padding: 2.5px;
   }
 
   .task-container {

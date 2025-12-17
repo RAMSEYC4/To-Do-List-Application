@@ -33,10 +33,11 @@ main {
   /* Slightly rounded corners */
   background-color: #ffffff;
   /* White card background */
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 15px 10px 15px 12.5px;
   height: auto;
   /* Adjust height for content */
-  min-height: 20vh;
+  /* min-height: 20vh; */
   /* Maintain a minimum height */
 }
 
@@ -100,19 +101,24 @@ main {
 }
 
 .generated-js-p {
-  border: none;
+  border: none !important;
+  resize: none;
+  /* for testing only height an d width */
+  width: 80%;
+  /* height: 21px; */
   /* Remove the inner black border for cleaner look */
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   /* Very light shadow for separation */
-  padding: 10px;
+  padding: 15px 10px 0px 10px;
   /* Increased padding */
   font-size: 16px;
   word-break: break-word;
   /* Ensure long tasks wrap */
   border-left: 5px solid #007bff;
   /* Accent line for the task text */
+  font-family: inherit;
 }
 
 /* Delete Button Styling */
@@ -135,6 +141,27 @@ main {
   display: block;
   /* Make it a block element to properly center */
 }
+
+.jsUpdatebutton {
+  background-color: rgb(69, 131, 188);
+  /* Danger/Delete color */
+  color: white;
+  border: none;
+  /* Remove border */
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.1s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 15px 10px;
+  /* Adjust padding */
+  margin: auto;
+  /* Center the button in its grid column */
+  display: block;
+  /* Make it a block element to properly center */
+}
+
 
 .jsDeletebutton:hover {
   background-color: #c82333;

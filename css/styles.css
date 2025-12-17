@@ -12,11 +12,19 @@ h1 {
   text-align: center;
 }
 
+textarea:focus {
+  outline: none;
+  /* removes the default outline */
+  box-shadow: none;
+  /* removes any shadow applied by the browser */
+}
+
+
 main {
   margin: 20px auto 0 auto;
   width: 50%;
   border: 2px solid #000;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .container {
@@ -48,9 +56,24 @@ main {
   padding: 5px;
 }
 
-.jsDeletebutton {
+.jsDeletebutton,
+.jsUpdatebutton {
   border: 1px solid #000;
-  width: 90%;
+  width: 60%;
   margin-right: 6px;
   padding: 5px;
+}
+
+.task-action {
+  border: 1px solid #000;
+  display: grid;
+  grid-auto-flow: column !important;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*items-display container*/
+.items-display {
+  border: 1px solid #000;
+  margin: 20px;
+  height: fit-content;
 }
